@@ -30,9 +30,9 @@ ASSETS_ROOT = os.getenv('ASSETS_ROOT', '/static/assets')
 SECRET_KEY = 'django-insecure-x=1jsh%7c-fe5@2z(^9c5dcw^m)mj)5=2b*t6didjek@#7-t7p'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [khdev.me, www.khdev.me,]
 
 
 # Application definition
